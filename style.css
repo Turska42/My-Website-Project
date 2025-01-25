@@ -21,7 +21,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-width: 70vh;
+    min-width: 75vh;
 }
 
 .left-headers {
@@ -47,7 +47,7 @@ a {
 .card {
     display: flex;
     flex-direction: row;
-    min-width: 70vh;
+    min-width: 75vh;
     background-color: #1F2937;
 }
 
@@ -91,4 +91,37 @@ button {
     font-weight: 900;
     padding: 8px 25px;
     border-radius: 8px;
+}
+
+.information {
+    background-color: white;
+    min-width: 75vh;
+    min-height: 25vh;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+    margin-top: 80px;
+}
+
+.illustration {
+    flex-direction: row;
+    gap: 52px;
+}
+
+.box {
+    border: 4px solid #3882F6;
+    border-radius: 14px;
+    width: 152px;
+    height: 152px;
+    margin-bottom: 5px;
+}
+
+.text {
+    max-width: 160px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0px;
 }
